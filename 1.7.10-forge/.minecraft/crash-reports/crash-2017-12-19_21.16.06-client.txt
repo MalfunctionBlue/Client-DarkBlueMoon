@@ -1,0 +1,200 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 17-12-19 下午9:16
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at net.minecraftforge.common.DimensionManager.getProvider(DimensionManager.java:155)
+	at WayofTime.alchemicalWizardry.common.items.LavaCrystal.hasEnoughEssence(LavaCrystal.java:87)
+	at WayofTime.alchemicalWizardry.common.AlchemicalWizardryFuelHandler.getBurnTime(AlchemicalWizardryFuelHandler.java:31)
+	at cpw.mods.fml.common.registry.GameRegistry.getFuelValue(GameRegistry.java:314)
+	at net.minecraft.tileentity.TileEntityFurnace.func_145952_a(TileEntityFurnace.java:340)
+	at thaumcraft.common.tiles.TileAlchemyFurnace.isItemFuel(TileAlchemyFurnace.java:496)
+	at thaumcraft.common.container.ContainerAlchemyFurnace.func_82846_b(ContainerAlchemyFurnace.java:153)
+	at net.minecraft.inventory.Container.func_75144_a(SourceFile:193)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78753_a(PlayerControllerMP.java:419)
+	at codechicken.nei.guihook.GuiContainerManager.handleSlotClick(GuiContainerManager.java:504)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146984_a(GuiContainer.java:638)
+	at net.minecraft.client.gui.inventory.GuiContainer.public_func_146984_a(GuiContainer.java)
+	at codechicken.nei.guihook.DefaultSlotClickHandler.callHandleMouseClick(DefaultSlotClickHandler.java)
+	at codechicken.nei.guihook.DefaultSlotClickHandler.handleSlotClick(DefaultSlotClickHandler.java:17)
+	at codechicken.nei.guihook.GuiContainerManager.handleMouseClick(GuiContainerManager.java:453)
+	at net.minecraft.client.gui.inventory.GuiContainer.managerHandleMouseClick(GuiContainer.java)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_73864_a(GuiContainer.java:394)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:296)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146274_d(GuiContainer.java)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:268)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1640)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:973)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:898)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jackhuang.hellominecraft.launcher.Launcher.main(Launcher.java:112)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraftforge.common.DimensionManager.getProvider(DimensionManager.java:155)
+	at WayofTime.alchemicalWizardry.common.items.LavaCrystal.hasEnoughEssence(LavaCrystal.java:87)
+	at WayofTime.alchemicalWizardry.common.AlchemicalWizardryFuelHandler.getBurnTime(AlchemicalWizardryFuelHandler.java:31)
+	at cpw.mods.fml.common.registry.GameRegistry.getFuelValue(GameRegistry.java:314)
+	at net.minecraft.tileentity.TileEntityFurnace.func_145952_a(TileEntityFurnace.java:340)
+	at thaumcraft.common.tiles.TileAlchemyFurnace.isItemFuel(TileAlchemyFurnace.java:496)
+	at thaumcraft.common.container.ContainerAlchemyFurnace.func_82846_b(ContainerAlchemyFurnace.java:153)
+	at net.minecraft.inventory.Container.func_75144_a(SourceFile:193)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78753_a(PlayerControllerMP.java:419)
+	at codechicken.nei.guihook.GuiContainerManager.handleSlotClick(GuiContainerManager.java:504)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146984_a(GuiContainer.java:638)
+	at net.minecraft.client.gui.inventory.GuiContainer.public_func_146984_a(GuiContainer.java)
+	at codechicken.nei.guihook.DefaultSlotClickHandler.callHandleMouseClick(DefaultSlotClickHandler.java)
+	at codechicken.nei.guihook.DefaultSlotClickHandler.handleSlotClick(DefaultSlotClickHandler.java:17)
+	at codechicken.nei.guihook.GuiContainerManager.handleMouseClick(GuiContainerManager.java:453)
+	at net.minecraft.client.gui.inventory.GuiContainer.managerHandleMouseClick(GuiContainer.java)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_73864_a(GuiContainer.java:394)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:296)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146274_d(GuiContainer.java)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:268)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1640)
+
+-- Affected screen --
+Details:
+	Screen name: thaumcraft.client.gui.GuiAlchemyFurnace
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Azerty'/12838, l='MpServer', x=47.57, y=69.62, z=413.19]]
+	Chunk stats: MultiplayerChunkCache: 64, 64
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (59,63,400), Chunk: (at 11,3,0 in 3,25; contains blocks 48,0,400 to 63,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 3142185 game time, 3219827 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 9 total; [EntityItem['item.item.itembamboo'/15024, l='MpServer', x=22.28, y=58.13, z=389.22], EntitySheep['羊'/14929, l='MpServer', x=29.53, y=62.00, z=391.47], EntityGolemBase['血肉傀儡'/114, l='MpServer', x=67.53, y=53.00, z=403.72], EntityGolemBase['木头傀儡'/102, l='MpServer', x=59.41, y=64.00, z=413.50], EntityTrail['未知'/3403189, l='MpServer', x=47.57, y=69.62, z=413.19], EntityZombie['僵尸'/14790, l='MpServer', x=36.00, y=40.00, z=392.56], EntityZombie['僵尸'/3404517, l='MpServer', x=-36.57, y=-34.64, z=3.81], EntityGolemBase['木头傀儡'/103, l='MpServer', x=58.47, y=64.00, z=408.59], EntityClientPlayerMP['Azerty'/12838, l='MpServer', x=47.57, y=69.62, z=413.19]]
+	Retry entities: 0 total; []
+	Server brand: kcauldron,cauldron,craftbukkit,mcpc,fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2444)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:919)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jackhuang.hellominecraft.launcher.Launcher.main(Launcher.java:112)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_151, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 337162720 bytes (321 MB) / 788529152 bytes (752 MB) up to 3221225472 bytes (3072 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx3072m
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 55 mods loaded, 44 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAAAA	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAAAA	SciMCLibCore{0.0.0.2} [SciMCLibCore] (minecraft.jar) 
+	UCHIJAAAAAA	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAAAAAA	InputFix{1.7.10-v5} [InputFix] (minecraft.jar) 
+	UCHIJAAAAAA	NotEnoughItems{1.0.5.120} [Not Enough Items] ([ICraft]物品管理器NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UCHIJAAAAAA	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJAAAAAA	FastCraft{1.23} [FastCraft] ([ICraft]优化fastcraft-1.23.jar) 
+	UCHIJAAAAAA	SciMCLib{SciMCLib} [SciMCLib] (%5B1.7.10%5DSciMCLib-0.0.0.2%28加速火把支持文件%29.jar) 
+	UCHIJAAAAAA	Torcherino{1.2s} [Torcherino] (%5B1.7.10%5DTorcherino%28加速火把%291.2s%5BL_RweI汉化%5D.jar) 
+	UCHIJAAAAAA	craftguide{1.6.8.1} [CraftGuide] ([ICraft]G键合成CraftGuide[hukk汉化].zip) 
+	UCHIJAAAAAA	ReiMinimap{1.7.10} [Rei's小地图 堕落汉化] ([ICraft]Reis小地图.jar) 
+	UCHIJAAAAAA	DamageIndicatorsMod{3.2.0} [Damage Indicators] ([ICraft]伤害与血量显示DamageIndicators v3.2.0.jar) 
+	UCHIJAAAAAA	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] ([ICraft]物品整理InventoryTweaks-1.59-dev-152.jar) 
+	UCHIJAAAAAA	Waila{1.5.10} [Waila] ([ICraft]物品显示Waila-1.5.10_1.7.10.jar) 
+	UCHIJAAAAAA	CoFHCore{1.7.10R3.1.4} [CoFH Core] ([N]CoFHCore-[1.7.10]3.1.4-329.jar) 
+	UCHIJAAAAAA	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHIJAAAAAA	ThermalFoundation{1.7.10R1.2.6} [Thermal Foundation] ([N]ThermalFoundation-[1.7.10]1.2.6-118.jar) 
+	UCHIJAAAAAA	ThermalDynamics{1.7.10R1.2.1} [Thermal Dynamics] ([N]ThermalDynamics-[1.7.10]1.2.1-172.jar) 
+	UCHIJAAAAAA	ThermalExpansion{1.7.10R4.1.5} [Thermal Expansion] ([N]ThermalExpansion-[1.7.10]4.1.5-248.jar) 
+	UCHIJAAAAAA	MovingWorld{1.7.10-1.8} [Moving World] (movingworld-1.7.10-1.8.jar) 
+	UCHIJAAAAAA	ArchimedesShipsPlus{1.7.10-1.8} [Archimedes' Ships Plus] (archimedesshipsplus-1.7.10-1.8.jar) 
+	UCHIJAAAAAA	BambooMod{Minecraft@MC_VERSION@ var@VERSION@} [BambooMod] (Bamboo-2.6.8.5.jar) 
+	UCHIJAAAAAA	AWWayofTime{v1.3.3} [Blood Magic: Alchemical Wizardry] (BloodMagic-1.7.10-1.3.3-17.jar) 
+	UCHIJAAAAAA	clockworkphase{1.7.10_1.0f} [Clockwork Phase] (clockworkphase-1.7.10_1.0f.jar) 
+	UCHIJAAAAAA	gokiStats{1.0.0} [gokiStats] (DCore-gokiStats-1.0cn_via_CI010.jar) 
+	UCHIJAAAAAA	fossil{1.7.10 Build 7.2.1} [Fossils and Archeology Revival] (Fossils_Archeology_Revival-1.7.10_Build-7.2.1.jar) 
+	UCHIJAAAAAA	iChunUtil{4.1.2} [iChunUtil] (iChunUtil-4.1.2.jar) 
+	UCHIJAAAAAA	Mantle{1.7.10-0.3.2.jenkins191} [Mantle] (Mantle-1.7.10-0.3.2b.jar) 
+	UCHIJAAAAAA	backlytra{1.7.10-0.0.3} [Backlytra] (mcmap.cc-%5B鞘翅MOD%5D%5B1.7.10%5D.jar) 
+	UCHIJAAAAAA	MineFactoryReloaded{1.7.10R2.8.1} [MineFactory Reloaded] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UCHIJAAAAAA	MineFactoryReloaded|CompatForgeMicroblock{1.7.10R2.8.1} [MFR Compat: ForgeMicroblock] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UCHIJAAAAAA	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) 
+	UCHIJAAAAAA	MineFactoryReloaded|CompatThaumcraft{1.7.10R2.8.1} [MFR Compat: Thaumcraft] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UCHIJAAAAAA	MineFactoryReloaded|CompatThermalExpansion{1.7.10R2.8.1} [MFR Compat: Thermal Expansion] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UCHIJAAAAAA	TConstruct{1.7.10-1.8.8.build988} [Tinkers' Construct] (TConstruct-1.7.10-1.8.8.jar) 
+	UCHIJAAAAAA	MineFactoryReloaded|CompatTConstruct{1.7.10R2.8.1} [MFR Compat: Tinkers' Construct] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UCHIJAAAAAA	TwilightForest{2.3.7} [The Twilight Forest] (twilightforest-1.7.10-2.3.7.jar) 
+	UCHIJAAAAAA	MineFactoryReloaded|CompatTwilightForest{1.7.10R2.8.1} [MFR Compat: TwilightForest] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UCHIJAAAAAA	MineFactoryReloaded|CompatVanilla{1.7.10R2.8.1} [MFR Compat: Vanilla] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UCHIJAAAAAA	Morph{0.9.1} [Morph] (Morph-Beta-0.9.1.jar) 
+	UCHIJAAAAAA	craftSaddle{2.0} [Craft Saddle] (usefulcraftSaddle-1.7.10.0.2(修复物品错误bug).jar) 
+	UCHIJAAAAAA	weaponmod{v1.14.3} [Balkon's WeaponMod] (weaponmod-1.14.3CN.jar) 
+	UD	MineFactoryReloaded|CompatAppliedEnergistics{1.7.10R2.8.1} [MFR Compat: Applied Energistics] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatAtum{1.7.10R2.8.1} [MFR Compat: Atum] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatBackTools{1.7.10R2.8.1} [MFR Compat: BackTools] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatBuildCraft{1.7.10R2.8.1} [MFR Compat: BuildCraft] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatChococraft{1.7.10R2.8.1} [MFR Compat: Chococraft] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatExtraBiomes{1.7.10R2.8.1} [MFR Compat: ExtraBiomes] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatForestry{1.7.10R2.8.1} [MFR Compat: Forestry] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatIC2{1.7.10R2.8.1} [MFR Compat: IC2] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatProjRed{1.7.10R2.8.1} [MFR Compat ProjectRed] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatRailcraft{1.7.10R2.8.1} [MFR Compat: Railcraft] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	UD	MineFactoryReloaded|CompatSufficientBiomes{1.7.10R2.8.1} [MFR Compat: Sufficient Biomes] (MineFactoryReloaded-[1.7.10]2.8.1-174.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.3.0' Renderer: 'GeForce GT 630/PCIe/SSE2'
+	CoFHCore: -[1.7.10]3.1.4-329
+	ThermalFoundation: -[1.7.10]1.2.6-118
+	ThermalDynamics: -[1.7.10]1.2.1-172
+	ThermalExpansion: -[1.7.10]4.1.5-248
+	Mantle Environment: Environment healthy.
+	MineFactoryReloaded: -[1.7.10]2.8.1-174
+	TConstruct Environment: Environment healthy.
+	SciMCLib Version: 0.0.0.2
+	Launched Version: HMCL 2.4.1.5
+	LWJGL: 2.9.1
+	OpenGL: GeForce GT 630/PCIe/SSE2 GL version 4.3.0, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

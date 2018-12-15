@@ -1,0 +1,453 @@
+[11:32:14] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[11:32:14] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[11:32:14] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
+[11:32:14] [main/DEBUG] [FML/]: Java classpath at launch is /C:/Kojima/Onad/Chernobyl/1.7.10-forge/Æô¶¯Æ÷.exe
+[11:32:14] [main/DEBUG] [FML/]: Java library path at launch is C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\versions\1.7.10-Forge10.13.4.1558-1.7.10\1.7.10-Forge10.13.4.1558-1.7.10-natives
+[11:32:14] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[11:32:14] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[11:32:14] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[11:32:14] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[11:32:14] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[11:32:14] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[11:32:14] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[11:32:14] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[11:32:14] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft
+[11:32:14] [main/DEBUG] [FML/]: Discovering coremods
+[11:32:14] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:32:14] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:32:14] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:32:14] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:32:14] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:32:14] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[11:32:14] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[11:32:14] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[11:32:14] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[11:32:14] [main/DEBUG] [FML/]: Injection complete
+[11:32:14] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[11:32:14] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[11:32:15] [main/DEBUG] [FML/]: Read 527 binary patches
+[11:32:15] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[11:32:15] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[11:32:15] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[11:32:15] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:32:15] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[11:32:15] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[11:32:15] [main/DEBUG] [FML/]: Injection complete
+[11:32:15] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[11:32:15] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[11:32:15] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[11:32:15] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:32:15] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[11:32:15] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[11:32:15] [main/DEBUG] [FML/]: Validating minecraft
+[11:32:16] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[11:32:16] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[11:32:16] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[11:32:16] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:32:18] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.035s
+[11:32:18] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 12/15/18 11:32 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 194194936 bytes (185 MB) / 268435456 bytes (256 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 416.34' Renderer: 'GeForce GTX 950/PCIe/SSE2'
+[11:32:18] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[11:32:18] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[11:32:18] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[11:32:18] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[11:32:18] [Client thread/DEBUG] [FML/]: File C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\config\injectedDependencies.json not found. No dependencies injected
+[11:32:18] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[11:32:19] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1558-1.7.10\forge-1.7.10-10.13.4.1558-1.7.10.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\google\guava\guava\15.0\guava-15.0.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\versions\1.7.10\1.7.10.jar, examining for mod candidates
+[11:32:19] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[11:32:19] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[11:32:19] [Client thread/INFO] [FML/]: Searching C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods for mods
+[11:32:19] [Client thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10.jar for potential mods
+[11:32:19] [Client thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10.jar appears to be missing an mcmod.info file
+[11:32:19] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[11:32:19] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[11:32:19] [Client thread/DEBUG] [FML/]: Examining file asm-all-5.0.3.jar for potential mods
+[11:32:19] [Client thread/DEBUG] [FML/]: The mod container asm-all-5.0.3.jar appears to be missing an mcmod.info file
+[11:32:19] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[11:32:19] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[11:32:19] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[11:32:19] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[11:32:19] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[11:32:19] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[11:32:19] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[11:32:19] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[11:32:21] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[11:32:21] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[11:32:21] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[11:32:21] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[11:32:21] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[11:32:21] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[11:32:22] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[11:32:22] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[11:32:22] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[11:32:22] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[11:32:22] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[11:32:22] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[11:32:22] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[11:32:22] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[11:32:23] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[11:32:23] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file guava-15.0.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container guava-15.0.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.1.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.21.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.21.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/DEBUG] [FML/]: Examining file 1.7.10.jar for potential mods
+[11:32:24] [Client thread/DEBUG] [FML/]: The mod container 1.7.10.jar appears to be missing an mcmod.info file
+[11:32:24] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 3 mods to load
+[11:32:24] [Client thread/TRACE] [FML/]: Received a system property request ''
+[11:32:24] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[11:32:24] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[11:32:24] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[11:32:25] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[11:32:25] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[11:32:25] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[11:32:25] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[11:32:25] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[11:32:25] [Client thread/DEBUG] [FML/]: Mod sorting data
+[11:32:25] [Client thread/DEBUG] [FML/]: No user mods found to sort
+[11:32:25] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[11:32:25] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[11:32:25] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[11:32:25] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[11:32:25] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[11:32:25] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[11:32:25] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[11:32:25] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[11:32:25] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.295s
+[11:32:25] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[11:32:25] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[11:32:25] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[11:32:25] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[11:32:25] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.013s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0.309s
+[11:32:25] [Client thread/DEBUG] [FML/]: Mod signature data
+[11:32:25] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[11:32:25] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10.jar
+[11:32:25] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10.jar
+[11:32:25] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[11:32:25] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.003s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.002s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.019s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.019s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.026s
+[11:32:25] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[11:32:25] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[11:32:25] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[11:32:25] [Client thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[11:32:25] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[11:32:25] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[11:32:25] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[11:32:25] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[11:32:25] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[11:32:25] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[11:32:25] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[11:32:25] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[11:32:25] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.040s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.041s
+[11:32:25] [Client thread/INFO] [FML/]: Applying holder lookups
+[11:32:25] [Client thread/INFO] [FML/]: Holder lookups applied
+[11:32:25] [Client thread/INFO] [FML/]: Injecting itemstacks
+[11:32:25] [Client thread/INFO] [FML/]: Itemstack injection complete
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[11:32:25] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:32:25] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[11:32:25] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[11:32:25] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:32:25] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.459s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.003s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.008s
+[11:32:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.010s
+[11:32:26] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0.129s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.027s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0.001s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 0.054s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 0.012s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0.000s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.001s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.003s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0.008s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.000s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.001s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0.005s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0.003s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 0.240s
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.001s
+[11:32:26] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.005s
+[11:32:26] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[11:32:26] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.006s
+[11:32:26] [Client thread/INFO] [FML/]: Injecting itemstacks
+[11:32:26] [Client thread/INFO] [FML/]: Itemstack injection complete
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.094s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.095s
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[11:32:26] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[11:32:26] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[11:32:26] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[11:32:26] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[11:32:26] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[11:32:26] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.009s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.010s
+[11:32:26] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[11:32:26] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[11:32:26] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[11:32:26] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 3 mods
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.200s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.126s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.024s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.048s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0.375s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.004s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0.000s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.005s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.088s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.004s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.005s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.007s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/items.png took 0.100s
+[11:32:26] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.485s
+[11:32:26] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:32:26] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[11:32:27] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[11:32:27] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:32:27] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:32:27] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[11:32:27] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[11:32:27] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:32:27] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[11:32:27] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 1.072s
+[11:32:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 1.073s
+[11:32:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 1.075s
+[11:32:27] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[11:32:27] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[11:32:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 8.557s
+[11:32:27] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:32:30] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[11:32:31] [Netty Client IO #1/TRACE] [FML/]: $ServerHello->FMLHandshakeClientState$2:HELLO
+[11:32:31] [Netty Client IO #1/INFO] [FML/]: Server protocol version 2
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Received override dimension 0
+[11:32:31] [Netty Client IO #1/TRACE] [FML/]: $ModList:3 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[11:32:31] [Netty Client IO #1/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[11:32:31] [Netty Client IO #1/TRACE] [FML/]: $ModIdData:486 mappings->FMLHandshakeClientState$4:WAITINGSERVERCOMPLETE
+[11:32:31] [Netty Client IO #1/INFO] [FML/]: Injecting existing block and item data into this client instance
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Registry consistency check successful
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Registry consistency check successful
+[11:32:31] [Netty Client IO #1/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[11:32:31] [Netty Client IO #1/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[11:32:31] [Netty Client IO #1/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[11:32:31] [Netty Client IO #1/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[11:32:31] [Netty Client IO #1/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[11:32:31] [Netty Client IO #1/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.021s
+[11:32:31] [Netty Client IO #1/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.021s
+[11:32:31] [Netty Client IO #1/INFO] [FML/]: Applying holder lookups
+[11:32:31] [Netty Client IO #1/INFO] [FML/]: Holder lookups applied
+[11:32:31] [Netty Client IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[11:32:31] [Netty Client IO #1/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[11:32:31] [Client thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[11:32:31] [Client thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[11:32:31] [Client thread/INFO] [FML/]: [Client thread] Client side modded connection established
+[11:32:31] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[11:32:47] [Client thread/DEBUG] [FML/]: Reverting to frozen data state.
+[11:32:47] [Client thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[11:32:47] [Client thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[11:32:47] [Client thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[11:32:47] [Client thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[11:32:47] [Client thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[11:32:47] [Client thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[11:32:47] [Client thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[11:32:47] [Client thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[11:32:47] [Client thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[11:32:47] [Client thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.001s
+[11:32:47] [Client thread/INFO] [FML/]: Applying holder lookups
+[11:32:47] [Client thread/INFO] [FML/]: Holder lookups applied
+[11:32:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:32:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[11:32:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[11:32:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 

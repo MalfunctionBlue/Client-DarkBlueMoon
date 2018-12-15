@@ -1,0 +1,24 @@
+[11:35:04] [main/INFO]: Setting user: Azerty_Yu
+[11:35:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:35:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Blood Magic: Alchemical Wizardry
+[11:35:14] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:14] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:14] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:14] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:14] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:14] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:15] [Sound Library Loader/INFO]: Sound engine started
+[11:35:15] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[11:35:15] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[11:35:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Blood Magic: Alchemical Wizardry
+[11:35:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\Chernobyl\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[11:35:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:35:16] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[11:35:17] [Sound Library Loader/INFO]: Sound engine started
+[11:35:20] [Client thread/INFO]: Connecting to 73.93.124.221, 25565
+[11:39:30] [Client thread/INFO]: Stopping!

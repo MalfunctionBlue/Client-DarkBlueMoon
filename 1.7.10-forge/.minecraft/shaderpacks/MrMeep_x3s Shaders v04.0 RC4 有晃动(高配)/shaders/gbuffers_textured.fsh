@@ -1,0 +1,26 @@
+#version 120
+
+const int GL_LINEAR = 9729;
+const int GL_EXP = 2048;
+
+varying vec4 color;
+varying vec4 texcoord;
+
+uniform sampler2D texture;
+uniform int fogMode;
+
+//////////////////////////////main//////////////////////////////
+//////////////////////////////main//////////////////////////////
+//////////////////////////////main//////////////////////////////
+//////////////////////////////main//////////////////////////////
+//////////////////////////////main//////////////////////////////
+
+void main() {
+	
+/* DRAWBUFFERS:04 */
+	
+	gl_FragData[0] = texture2D(texture,texcoord.xy)*color;
+	//x = specularity / y = land(0.0/1.0)/shadow early exit(0.2)/water(0.05) / z = torch lightmap
+	gl_FragData[1] = vec4(0.0, 0.0, 0.0, 0.0);
+	
+}

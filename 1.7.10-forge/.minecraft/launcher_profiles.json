@@ -1,0 +1,19 @@
+{
+	"profiles": {
+		"LiteLoader 1.7.10": {
+			"name": "LiteLoader 1.7.10",
+			"lastVersionId": "1.7.10-LiteLoader1.7.10",
+			"useHopperCrashService": "false",
+			"javaArgs": "-Xmx1G"
+		},
+		"Forge": {
+			"name": "Forge",
+			"lastVersionId": "1.7.10-Forge10.13.4.1558-1.7.10"
+		},
+		"(Default)": {
+			"name": "(Default)"
+		}
+	},
+	"selectedProfile": "(Default)",
+	"clientToken": "88888888-8888-8888-8888-888888888888"
+}
