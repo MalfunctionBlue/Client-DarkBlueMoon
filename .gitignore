@@ -1,2 +1,12 @@
+# exclude launcher
 hmcl.json
 hmcl.log
+
+# exclude saves
+
+.minecraft/saves/
+!.minecraft/saves/.gitkeep
+
+# exlude screenshot
+!.micecraft/screenshots
+!.minecraft/screenshots/.gitkeep
