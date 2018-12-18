@@ -1,0 +1,32 @@
+[13:02:03] [main/INFO]: Setting user: Azerty_Yu
+[13:02:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:02:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Rei's小地图 堕落汉化, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:Archimedes' Ships Plus, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Moving World, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:UnicodeFontFixer, FMLFileResourcePack:Baubles
+[13:02:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:20] [Sound Library Loader/INFO]: Sound engine started
+[13:02:24] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[13:02:24] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[13:02:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Rei's小地图 堕落汉化, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:Archimedes' Ships Plus, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Moving World, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:UnicodeFontFixer, FMLFileResourcePack:Baubles
+[13:02:28] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:28] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:28] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:28] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:28] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:28] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[13:02:29] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_223_blockSpellModifier.png, java.io.FileNotFoundException
+[13:02:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_233_blockMimic.png, java.io.FileNotFoundException
+[13:02:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_230_crystalBelljar.png, java.io.FileNotFoundException
+[13:02:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_229_alchemicCalcinator.png, java.io.FileNotFoundException
+[13:02:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_221_blockSpellParadigm.png, java.io.FileNotFoundException
+[13:02:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_227_schematicSaver.png, java.io.FileNotFoundException
+[13:02:30] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_224_blockSpellEffect.png, java.io.FileNotFoundException
+[13:02:31] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/MISSING_ICON_BLOCK_222_blockSpellEnhancement.png, java.io.FileNotFoundException
+[13:02:31] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[13:02:32] [Client thread/ERROR]: Using missing texture, unable to load alchemicalwizardry:textures/items/SigilOfTheFastMiner.png, java.io.FileNotFoundException
+[13:02:32] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[13:02:33] [Sound Library Loader/INFO]: Sound engine started
+[13:03:22] [Client thread/INFO]: Stopping!

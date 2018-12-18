@@ -1,135 +1,604 @@
-[14:00:16] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[14:00:16] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
-[14:00:16] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
-[14:00:16] [main/DEBUG] [FML/]: Java classpath at launch is /C:/Kojima/Onad/DarkBlueMoon/Client-DarkBlueMoon/1.7.10-forge/启动器.exe
-[14:00:16] [main/DEBUG] [FML/]: Java library path at launch is C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\versions\1.7.10-Forge10.13.4.1558-1.7.10\1.7.10-Forge10.13.4.1558-1.7.10-natives
-[14:00:16] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
-[14:00:16] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[14:00:16] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[14:00:16] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[14:00:16] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[14:00:16] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
-[14:00:16] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[14:00:16] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[14:00:16] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft
-[14:00:16] [main/DEBUG] [FML/]: Discovering coremods
-[14:00:16] [main/DEBUG] [FML/]: Examining for coremod candidacy BloodMagic-1.7.10-1.3.3-17.jar
-[14:00:16] [main/DEBUG] [FML/]: Not found coremod data in BloodMagic-1.7.10-1.3.3-17.jar
-[14:00:16] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumcraft-1.7.10-4.2.3.5.jar
-[14:00:16] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Thaumcraft-1.7.10-4.2.3.5.jar, it will be examined later for regular @Mod instances
-[14:00:16] [main/DEBUG] [FML/]: Instantiating coremod class DepLoader
-[14:00:16] [main/WARN] [FML/]: The coremod thaumcraft.codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[14:00:16] [main/DEBUG] [FML/]: Enqueued coremod DepLoader
-[14:00:16] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:00:16] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[14:00:16] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:00:16] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:00:16] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:00:16] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
-[14:00:16] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
-[14:00:16] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
-[14:00:16] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
-[14:00:16] [main/DEBUG] [FML/]: Injection complete
-[14:00:16] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
-[14:00:16] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[14:00:17] [main/DEBUG] [FML/]: Read 527 binary patches
-[14:00:17] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[14:00:17] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[14:00:17] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[14:00:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:00:17] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
-[14:00:17] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
-[14:00:17] [main/DEBUG] [FML/]: Injection complete
-[14:00:17] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
-[14:00:17] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[14:00:17] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[14:00:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:00:17] [main/DEBUG] [FML/]: Injecting coremod DepLoader {thaumcraft.codechicken.core.launch.DepLoader} class transformers
-[14:00:17] [main/DEBUG] [FML/]: Injection complete
-[14:00:17] [main/DEBUG] [FML/]: Running coremod plugin for DepLoader {thaumcraft.codechicken.core.launch.DepLoader}
-[14:00:17] [main/DEBUG] [FML/]: Running coremod plugin DepLoader
-[14:00:34] [main/ERROR] [LaunchWrapper/]: Unable to launch
-java.lang.RuntimeException: java.lang.RuntimeException: A download error occured
-	at cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper.injectIntoClassLoader(CoreModManager.java:137) ~[forge-1.7.10-10.13.4.1558-1.7.10.jar:?]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
-	at org.jackhuang.hellominecraft.launcher.Launcher.main(Launcher.java:112) [%e5%90%af%e5%8a%a8%e5%99%a8.exe:?]
-Caused by: java.lang.RuntimeException: A download error occured
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.download(DepLoader.java:377) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.load(DepLoader.java:506) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.loadDeps(DepLoader.java:492) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.load(DepLoader.java:475) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.load(DepLoader.java:631) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.call(DepLoader.java:656) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.call(DepLoader.java:65) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper.injectIntoClassLoader(CoreModManager.java:133) ~[forge-1.7.10-10.13.4.1558-1.7.10.jar:?]
-	... 7 more
-Caused by: java.io.FileNotFoundException: https://dl.dropboxusercontent.com/u/47135879//Baubles-1.7.10-1.0.1.10.jar
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_191]
-	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_191]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_191]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
-	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_191]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.download(DepLoader.java:364) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.load(DepLoader.java:506) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.loadDeps(DepLoader.java:492) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.load(DepLoader.java:475) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.load(DepLoader.java:631) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.call(DepLoader.java:656) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.call(DepLoader.java:65) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper.injectIntoClassLoader(CoreModManager.java:133) ~[forge-1.7.10-10.13.4.1558-1.7.10.jar:?]
-	... 7 more
-Caused by: java.io.FileNotFoundException: https://dl.dropboxusercontent.com/u/47135879//Baubles-1.7.10-1.0.1.10.jar
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_191]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
-	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source) ~[?:1.8.0_191]
-	at java.net.URLConnection.getHeaderFieldLong(Unknown Source) ~[?:1.8.0_191]
-	at java.net.URLConnection.getContentLengthLong(Unknown Source) ~[?:1.8.0_191]
-	at java.net.URLConnection.getContentLength(Unknown Source) ~[?:1.8.0_191]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getContentLength(Unknown Source) ~[?:1.8.0_191]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.download(DepLoader.java:363) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.load(DepLoader.java:506) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.loadDeps(DepLoader.java:492) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader$DepLoadInst.load(DepLoader.java:475) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.load(DepLoader.java:631) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.call(DepLoader.java:656) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at thaumcraft.codechicken.core.launch.DepLoader.call(DepLoader.java:65) ~[Thaumcraft-1.7.10-4.2.3.5.jar:?]
-	at cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper.injectIntoClassLoader(CoreModManager.java:133) ~[forge-1.7.10-10.13.4.1558-1.7.10.jar:?]
-	... 7 more
-[14:00:34] [main/INFO] [STDERR/]: [org.jackhuang.hellominecraft.launcher.Launcher:main:115]: Minecraft has crashed!
-[14:00:34] [main/INFO] [STDERR/]: [org.jackhuang.hellominecraft.launcher.Launcher:main:116]: Maybe mods caused problems.
-[14:00:34] [main/INFO] [STDERR/]: [org.jackhuang.hellominecraft.launcher.Launcher:main:117]: java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.jackhuang.hellominecraft.launcher.Launcher.main(Launcher.java:112)
-Caused by: cpw.mods.fml.relauncher.FMLSecurityManager$ExitTrappedException
-	at cpw.mods.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:25)
-	at java.lang.SecurityManager.checkExit(Unknown Source)
-	at java.lang.Runtime.exit(Unknown Source)
-	at java.lang.System.exit(Unknown Source)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-	... 5 more
+[13:00:36] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[13:00:37] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[13:00:37] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
+[13:00:37] [main/DEBUG] [FML/]: Java classpath at launch is C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\google\guava\guava\15.0\guava-15.0.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\versions\1.7.10\1.7.10.jar
+[13:00:37] [main/DEBUG] [FML/]: Java library path at launch is C:\Users\anyone\AppData\Local\Temp\minecraft9052634732937167352
+[13:00:37] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[13:00:37] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[13:00:37] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[13:00:37] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[13:00:37] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[13:00:37] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[13:00:37] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[13:00:37] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[13:00:37] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft
+[13:00:37] [main/DEBUG] [FML/]: Discovering coremods
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy [ICraft]Reis小地图.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in [ICraft]Reis小地图.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy [ICraft]中文输入InputFix-1.7.10-v5.jar
+[13:00:37] [main/TRACE] [FML/]: Adding [ICraft]中文输入InputFix-1.7.10-v5.jar to the list of known coremods, it will not be examined again
+[13:00:37] [main/DEBUG] [FML/]: Instantiating coremod class InputFix
+[13:00:37] [main/TRACE] [FML/]: coremod named InputFix is loading
+[13:00:37] [main/WARN] [FML/]: The coremod lain.mods.inputfix.InputFix does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[13:00:37] [main/DEBUG] [FML/]: Enqueued coremod InputFix
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy [N]ThermalDynamics-[1.7.10]1.2.1-172.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in [N]ThermalDynamics-[1.7.10]1.2.1-172.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy [N]ThermalExpansion-[1.7.10]4.1.5-248.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in [N]ThermalExpansion-[1.7.10]4.1.5-248.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy [N]ThermalFoundation-[1.7.10]1.2.6-118.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in [N]ThermalFoundation-[1.7.10]1.2.6-118.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy archimedesshipsplus-1.7.10-1.8.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in archimedesshipsplus-1.7.10-1.8.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy Baubles-1.7.10-1.0.1.10.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in Baubles-1.7.10-1.0.1.10.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy BloodMagic-1.7.10-1.3.3-17.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in BloodMagic-1.7.10-1.3.3-17.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy InventoryTweaks-1.59-dev-152.jar
+[13:00:37] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.59-dev-152.jar, it will be examined later for regular @Mod instances
+[13:00:37] [main/DEBUG] [FML/]: Instantiating coremod class FMLPlugin
+[13:00:37] [main/WARN] [FML/]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[13:00:37] [main/DEBUG] [FML/]: Added access transformer class invtweaks.forge.asm.ITAccessTransformer to enqueued access transformers
+[13:00:37] [main/DEBUG] [FML/]: Enqueued coremod FMLPlugin
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy movingworld-1.7.10-1.8.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in movingworld-1.7.10-1.8.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy OptiFine_1.7.10_HD_U_E7.jar
+[13:00:37] [main/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.7.10_HD_U_E7.jar
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumcraft-1.7.10-4.2.3.5.jar
+[13:00:37] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Thaumcraft-1.7.10-4.2.3.5.jar, it will be examined later for regular @Mod instances
+[13:00:37] [main/DEBUG] [FML/]: Instantiating coremod class DepLoader
+[13:00:37] [main/WARN] [FML/]: The coremod thaumcraft.codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[13:00:37] [main/DEBUG] [FML/]: Enqueued coremod DepLoader
+[13:00:37] [main/DEBUG] [FML/]: Examining for coremod candidacy UnicodeFontFixer-1.1.12-mc1.7.10.jar
+[13:00:37] [main/DEBUG] [FML/]: Not found coremod data in UnicodeFontFixer-1.1.12-mc1.7.10.jar
+[13:00:37] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:00:37] [main/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[13:00:37] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[13:00:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:00:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:00:37] [main/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[13:00:37] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[13:00:37] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[13:00:37] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[13:00:37] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ZIP file: C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\OptiFine_1.7.10_HD_U_E7.jar
+[13:00:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:00:37] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[13:00:37] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[13:00:37] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[13:00:37] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[13:00:37] [main/DEBUG] [FML/]: Injection complete
+[13:00:37] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[13:00:37] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[13:00:37] [main/DEBUG] [FML/]: Read 527 binary patches
+[13:00:38] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[13:00:38] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[13:00:38] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[13:00:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:00:38] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[13:00:38] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[13:00:38] [main/DEBUG] [FML/]: Injection complete
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[13:00:38] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[13:00:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:00:38] [main/DEBUG] [FML/]: Injecting coremod InputFix {lain.mods.inputfix.InputFix} class transformers
+[13:00:38] [main/TRACE] [FML/]: Registering transformer lain.mods.inputfix.InputFixTransformer
+[13:00:38] [main/DEBUG] [FML/]: Injection complete
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin for InputFix {lain.mods.inputfix.InputFix}
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin InputFix
+[13:00:38] [main/DEBUG] [FML/]: Coremod plugin class InputFix run successfully
+[13:00:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:00:38] [main/DEBUG] [FML/]: Injecting coremod FMLPlugin {invtweaks.forge.asm.FMLPlugin} class transformers
+[13:00:38] [main/TRACE] [FML/]: Registering transformer invtweaks.forge.asm.ContainerTransformer
+[13:00:38] [main/DEBUG] [FML/]: Injection complete
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin for FMLPlugin {invtweaks.forge.asm.FMLPlugin}
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin FMLPlugin
+[13:00:38] [main/DEBUG] [FML/]: Coremod plugin class FMLPlugin run successfully
+[13:00:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:00:38] [main/DEBUG] [FML/]: Injecting coremod DepLoader {thaumcraft.codechicken.core.launch.DepLoader} class transformers
+[13:00:38] [main/DEBUG] [FML/]: Injection complete
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin for DepLoader {thaumcraft.codechicken.core.launch.DepLoader}
+[13:00:38] [main/DEBUG] [FML/]: Running coremod plugin DepLoader
+[13:00:38] [main/DEBUG] [FML/]: Coremod plugin class DepLoader run successfully
+[13:00:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[13:00:38] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[13:00:38] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[13:00:39] [main/DEBUG] [FML/]: Loaded 9 rules from AccessTransformer config file invtweaks_at.cfg
+[13:00:39] [main/DEBUG] [FML/]: Loaded 6 rules from AccessTransformer mod jar file C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\[N]ThermalDynamics-[1.7.10]1.2.1-172.jar!META-INF/tdynamics_at.cfg
 
+[13:00:39] [main/DEBUG] [FML/]: Validating minecraft
+[13:00:39] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[13:00:39] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[13:00:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[13:00:39] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[13:00:39] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:00:41] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Class not present: ModLoader
+[13:00:41] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Class not present: LightCache
+[13:00:41] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Class not present: BlockCoord
+[13:00:41] [Client thread/INFO] [FML/]: InvTweaks: net.minecraft.inventory.Container
+[13:00:41] [Client thread/INFO] [FML/]: InvTweaks: net.minecraft.inventory.ContainerRepair
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] 
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] OptiFine_1.7.10_HD_U_E7
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] Build: 20180404-111312
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] Java: 1.8.0_191, Oracle Corporation
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] LWJGL: 2.9.1
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] OpenGL: GeForce GTX 950/PCIe/SSE2, version 4.6.0 NVIDIA 416.34, NVIDIA Corporation
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] OpenGL Version: 4.6.0
+[13:00:42] [Client thread/INFO] [Config/]: [OptiFine] Maximum texture size: 16384x16384
+[13:00:42] [Thread-7/INFO] [Config/]: [OptiFine] Checking for new version
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] ShadersMod version: 2.4.12
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 416.34
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Renderer: GeForce GTX 950/PCIe/SSE2
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Load ShadersMod configuration.
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Save ShadersMod configuration.
+[13:00:42] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] No shaderpack loaded.
+[13:00:43] [Thread-7/INFO] [Config/]: [OptiFine] Version found: E7
+[13:00:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.007s
+[13:00:43] [Client thread/INFO] [FML/]: Forge Mod Loader has detected optifine OptiFine_1.7.10_HD_U_E7, enabling compatibility features
+[13:00:43] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 12/18/18 1:00 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 118446328 bytes (112 MB) / 268435456 bytes (256 MB) up to 4278190080 bytes (4080 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4072m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 416.34' Renderer: 'GeForce GTX 950/PCIe/SSE2'
+[13:00:43] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[13:00:43] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[13:00:43] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[13:00:43] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[13:00:43] [Client thread/DEBUG] [FML/]: File C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\config\injectedDependencies.json not found. No dependencies injected
+[13:00:43] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, lain.mods.inputfix.InputFixDummyContainer]
+[13:00:43] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\google\guava\guava\15.0\guava-15.0.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar, examining for mod candidates
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\versions\1.7.10\1.7.10.jar, examining for mod candidates
+[13:00:43] [Client thread/TRACE] [FML/]: Skipping known library file C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\[ICraft]中文输入InputFix-1.7.10-v5.jar
+[13:00:43] [Client thread/TRACE] [FML/]: Skipping known library file C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\InventoryTweaks-1.59-dev-152.jar
+[13:00:43] [Client thread/TRACE] [FML/]: Skipping known library file C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\OptiFine_1.7.10_HD_U_E7.jar
+[13:00:43] [Client thread/TRACE] [FML/]: Skipping known library file C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\Thaumcraft-1.7.10-4.2.3.5.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[13:00:43] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[13:00:43] [Client thread/INFO] [FML/]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods for mods
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [ICraft]G键合成CraftGuide[hukk汉化].zip
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [ICraft]Reis小地图.jar
+[13:00:43] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker [ICraft]中文输入InputFix-1.7.10-v5.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [N]ThermalDynamics-[1.7.10]1.2.1-172.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [N]ThermalExpansion-[1.7.10]4.1.5-248.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [N]ThermalFoundation-[1.7.10]1.2.6-118.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file archimedesshipsplus-1.7.10-1.8.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file BloodMagic-1.7.10-1.3.3-17.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file InventoryTweaks-1.59-dev-152.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Ignoring unknown file mod_Autofish_0.4.9_mc1.7.10.litemod in mods directory
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file movingworld-1.7.10-1.8.jar
+[13:00:43] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker OptiFine_1.7.10_HD_U_E7.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file Thaumcraft-1.7.10-4.2.3.5.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file UnicodeFontFixer-1.1.12-mc1.7.10.jar
+[13:00:43] [Client thread/INFO] [FML/]: Also searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.minecraft\mods\1.7.10 for mods
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file Baubles-1.7.10-1.0.1.10.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[13:00:43] [Client thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10.jar for potential mods
+[13:00:43] [Client thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10.jar appears to be missing an mcmod.info file
+[13:00:44] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[13:00:44] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[13:00:44] [Client thread/DEBUG] [FML/]: Examining file asm-all-5.0.3.jar for potential mods
+[13:00:44] [Client thread/DEBUG] [FML/]: The mod container asm-all-5.0.3.jar appears to be missing an mcmod.info file
+[13:00:44] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[13:00:44] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[13:00:44] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[13:00:44] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[13:00:44] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[13:00:44] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[13:00:44] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[13:00:44] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[13:00:47] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[13:00:47] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[13:00:47] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[13:00:47] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[13:00:47] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[13:00:47] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[13:00:48] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[13:00:48] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[13:00:48] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[13:00:48] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[13:00:48] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[13:00:48] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[13:00:49] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[13:00:49] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file guava-15.0.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container guava-15.0.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.1.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.21.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.21.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[13:00:50] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[13:00:50] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[13:00:51] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[13:00:51] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[13:00:51] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file 1.7.10.jar for potential mods
+[13:00:51] [Client thread/DEBUG] [FML/]: The mod container 1.7.10.jar appears to be missing an mcmod.info file
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[13:00:51] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file [ICraft]G键合成CraftGuide[hukk汉化].zip for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [ICraft]G键合成CraftGuide[hukk汉化].zip
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (uristqwerty.CraftGuide.CraftGuide_FML) - loading
+[13:00:51] [Client thread/TRACE] [craftguide/]: Parsed dependency info : [] [] []
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file [ICraft]Reis小地图.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [ICraft]Reis小地图.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (reifnsk.minimap.ReiMinimapForge) - loading
+[13:00:51] [Client thread/TRACE] [ReiMinimap/]: Parsed dependency info : [] [] []
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (DamageIndicatorsMod.DIMod) - loading
+[13:00:51] [Client thread/TRACE] [DamageIndicatorsMod/]: Parsed dependency info : [] [] []
+[13:00:51] [Client thread/DEBUG] [DamageIndicatorsMod/]: Attempting to load the file version.properties from [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar to locate a version number for DamageIndicatorsMod
+[13:00:51] [Client thread/WARN] [DamageIndicatorsMod/]: Mod DamageIndicatorsMod is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.0
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file [N]ThermalDynamics-[1.7.10]1.2.1-172.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [N]ThermalDynamics-[1.7.10]1.2.1-172.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.thermaldynamics.ThermalDynamics) - loading
+[13:00:51] [Client thread/TRACE] [ThermalDynamics/]: Parsed dependency info : [CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0), ThermalFoundation@[1.7.10R1.2.6,1.7.10R1.3.0)] [CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0), ThermalFoundation@[1.7.10R1.2.6,1.7.10R1.3.0)] []
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file [N]ThermalExpansion-[1.7.10]4.1.5-248.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [N]ThermalExpansion-[1.7.10]4.1.5-248.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.thermalexpansion.ThermalExpansion) - loading
+[13:00:51] [Client thread/TRACE] [ThermalExpansion/]: Parsed dependency info : [ThermalFoundation@[1.7.10R1.2.6,1.7.10R1.3.0), CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0)] [CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0), ThermalFoundation@[1.7.10R1.2.6,1.7.10R1.3.0)] []
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file [N]ThermalFoundation-[1.7.10]1.2.6-118.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [N]ThermalFoundation-[1.7.10]1.2.6-118.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.thermalfoundation.ThermalFoundation) - loading
+[13:00:51] [Client thread/TRACE] [ThermalFoundation/]: Parsed dependency info : [CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0)] [CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0)] []
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file archimedesshipsplus-1.7.10-1.8.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file archimedesshipsplus-1.7.10-1.8.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (darkevilmac.archimedes.ArchimedesShipMod) - loading
+[13:00:51] [Client thread/TRACE] [ArchimedesShipsPlus/]: Parsed dependency info : [MovingWorld] [MovingWorld] []
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file BloodMagic-1.7.10-1.3.3-17.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file BloodMagic-1.7.10-1.3.3-17.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (WayofTime.alchemicalWizardry.AlchemicalWizardry) - loading
+[13:00:51] [Client thread/TRACE] [AWWayofTime/]: Parsed dependency info : [] [] []
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file InventoryTweaks-1.59-dev-152.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file InventoryTweaks-1.59-dev-152.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (invtweaks.forge.InvTweaksMod) - loading
+[13:00:51] [Client thread/TRACE] [inventorytweaks/]: Parsed dependency info : [FML@[7.2.0,), Forge@[10.12.1,)] [FML@[7.2.0,), Forge@[10.12.1,)] []
+[13:00:51] [Client thread/DEBUG] [inventorytweaks/]: Attempting to load the file version.properties from InventoryTweaks-1.59-dev-152.jar to locate a version number for inventorytweaks
+[13:00:51] [Client thread/DEBUG] [inventorytweaks/]: Found version 1.59-dev-152-cf6e263 for mod inventorytweaks in version.properties, using
+[13:00:51] [Client thread/DEBUG] [FML/]: Examining file movingworld-1.7.10-1.8.jar for potential mods
+[13:00:51] [Client thread/TRACE] [FML/]: Located mcmod.info file in file movingworld-1.7.10-1.8.jar
+[13:00:51] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (darkevilmac.movingworld.MovingWorld) - loading
+[13:00:51] [Client thread/TRACE] [MovingWorld/]: Parsed dependency info : [] [] []
+[13:00:52] [Client thread/DEBUG] [FML/]: Examining file Thaumcraft-1.7.10-4.2.3.5.jar for potential mods
+[13:00:52] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Thaumcraft-1.7.10-4.2.3.5.jar
+[13:00:52] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (thaumcraft.common.Thaumcraft) - loading
+[13:00:52] [Client thread/TRACE] [Thaumcraft/]: Parsed dependency info : [Baubles@[1.0.1.10,), Forge@[10.13.2,)] [Forge@[10.13.2,), Baubles@[1.0.1.10,)] []
+[13:00:52] [Client thread/DEBUG] [FML/]: Examining file UnicodeFontFixer-1.1.12-mc1.7.10.jar for potential mods
+[13:00:52] [Client thread/TRACE] [FML/]: Located mcmod.info file in file UnicodeFontFixer-1.1.12-mc1.7.10.jar
+[13:00:52] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (unicodefontfixer.UnicodeFontFixer) - loading
+[13:00:52] [Client thread/TRACE] [UnicodeFontFixer/]: Parsed dependency info : [] [] []
+[13:00:52] [Client thread/DEBUG] [UnicodeFontFixer/]: Attempting to load the file version.properties from UnicodeFontFixer-1.1.12-mc1.7.10.jar to locate a version number for UnicodeFontFixer
+[13:00:52] [Client thread/WARN] [UnicodeFontFixer/]: Mod UnicodeFontFixer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.12-mc1.7.10
+[13:00:52] [Client thread/DEBUG] [FML/]: Examining file Baubles-1.7.10-1.0.1.10.jar for potential mods
+[13:00:52] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Baubles-1.7.10-1.0.1.10.jar
+[13:00:52] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (baubles.common.Baubles) - loading
+[13:00:52] [Client thread/TRACE] [Baubles/]: Parsed dependency info : [Forge@[10.13.2,)] [Forge@[10.13.2,)] []
+[13:00:52] [Client thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[13:00:52] [Client thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[13:00:52] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 17 mods to load
+[13:00:52] [Client thread/DEBUG] [FML/]: Found API WayofTime.alchemicalWizardry.api (owned by BloodMagic providing BloodMagicAPI) embedded in AWWayofTime
+[13:00:52] [Client thread/DEBUG] [FML/]: Found API baubles.api (owned by Baubles providing Baubles|API) embedded in Baubles
+[13:00:52] [Client thread/DEBUG] [FML/]: Found API thaumcraft.api (owned by Thaumcraft providing Thaumcraft|API) embedded in Thaumcraft
+[13:00:52] [Client thread/DEBUG] [FML/]: Found API baubles.api (owned by Baubles providing Baubles|API) embedded in ThermalFoundation
+[13:00:52] [Client thread/DEBUG] [FML/]: Creating API container dummy for API Baubles|API: owner: Baubles, dependents: [ThermalFoundation]
+[13:00:52] [Client thread/DEBUG] [FML/]: Creating API container dummy for API BloodMagicAPI: owner: BloodMagic, dependents: [AWWayofTime]
+[13:00:52] [Client thread/DEBUG] [FML/]: Creating API container dummy for API Thaumcraft|API: owner: Thaumcraft, dependents: []
+[13:00:52] [Client thread/TRACE] [FML/]: Received a system property request ''
+[13:00:52] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[13:00:52] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[13:00:52] [Client thread/DEBUG] [craftguide/]: Enabling mod craftguide
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in [ICraft]G键合成CraftGuide[hukk汉化].zip [en_US, zh_CN, zh_TW]
+[13:00:52] [Client thread/DEBUG] [ReiMinimap/]: Enabling mod ReiMinimap
+[13:00:52] [Client thread/DEBUG] [DamageIndicatorsMod/]: Enabling mod DamageIndicatorsMod
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar [en_US]
+[13:00:52] [Client thread/DEBUG] [ThermalDynamics/]: Enabling mod ThermalDynamics
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in [N]ThermalDynamics-[1.7.10]1.2.1-172.jar [it_IT, zh_TW, ja_JP, ko_KR, en_US, fr_FR, de_DE, pt_BR, zh_CN, nl_NL, cs_CZ, en_GB, ru_RU]
+[13:00:52] [Client thread/DEBUG] [ThermalExpansion/]: Enabling mod ThermalExpansion
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in [N]ThermalExpansion-[1.7.10]4.1.5-248.jar [en_GB, ko_KR, pt_BR, en_US, de_DE, cs_CZ, nl_NL, it_IT, zh_TW, es_ES, ja_JP, ru_RU, en_PT, zh_CN]
+[13:00:52] [Client thread/DEBUG] [ThermalFoundation/]: Enabling mod ThermalFoundation
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in [N]ThermalFoundation-[1.7.10]1.2.6-118.jar [tr_TR, it_IT, de_DE, ja_JP, pt_BR, en_GB, ko_KR, sk_SK, zh_TW, cs_CZ, zh_CN, pl_PL, es_ES, en_US, nl_NL, en_PT, ru_RU]
+[13:00:52] [Client thread/DEBUG] [ArchimedesShipsPlus/]: Enabling mod ArchimedesShipsPlus
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in archimedesshipsplus-1.7.10-1.8.jar [cs_CZ, en_US, fr_FR, nl_NL, pt_BR, ru_RU, zh_CN]
+[13:00:52] [Client thread/DEBUG] [AWWayofTime/]: Enabling mod AWWayofTime
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in BloodMagic-1.7.10-1.3.3-17.jar [de_DE, en_US, fr_FR, it_IT, ko_KR, ru_RU, zh_CN, zh_TW, en_US, en_US, es_ES, fr_FR]
+[13:00:52] [Client thread/DEBUG] [inventorytweaks/]: Enabling mod inventorytweaks
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in InventoryTweaks-1.59-dev-152.jar [da_DK, de_DE, en_US, es_ES, fr_CA, fr_FR, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nl_NL, no_NO, pl_PL, pt_BR, pt_PT, ru_RU, sl_SI, sv_SE, tr_TR, uk_UA, zh_CN, zh_TW, et_EE]
+[13:00:52] [Client thread/DEBUG] [MovingWorld/]: Enabling mod MovingWorld
+[13:00:52] [Client thread/DEBUG] [Thaumcraft/]: Enabling mod Thaumcraft
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in Thaumcraft-1.7.10-4.2.3.5.jar [ca_ES, cs_CZ, de_DE, en_US, es_AR, es_ES, es_MX, es_UY, es_VE, et_EE, fi_FI, fr_FR, it_IT, ja_JP, ko_KR, nl_NL, pt_BR, pt_PT, ru_RU, sv_SE, zh_CN, zh_TW]
+[13:00:52] [Client thread/DEBUG] [UnicodeFontFixer/]: Enabling mod UnicodeFontFixer
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in UnicodeFontFixer-1.1.12-mc1.7.10.jar [en_US, zh_CN]
+[13:00:52] [Client thread/DEBUG] [Baubles/]: Enabling mod Baubles
+[13:00:52] [Client thread/DEBUG] [FML/]: Found translations in Baubles-1.7.10-1.0.1.10.jar [ar_SA, cs_CZ, da_DK, de_DE, en_US, et_EE, fi_FI, fr_FR, it_IT, ko_KR, nl_NL, no_NO, pl_PL, pt_BR, ru_RU, zh_CN, zh_TW]
+[13:00:52] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[13:00:52] [Client thread/ERROR] [FML/]: The mod ThermalDynamics (Thermal Dynamics) requires mods [CoFHCore] to be available
+[13:00:52] [Client thread/DEBUG] [FML/]: Mod sorting data
+[13:00:52] [Client thread/DEBUG] [FML/]: 	craftguide(CraftGuide:1.6.8.1): [ICraft]G键合成CraftGuide[hukk汉化].zip ()
+[13:00:52] [Client thread/DEBUG] [FML/]: 	ReiMinimap(Rei's小地图 堕落汉化:1.7.10): [ICraft]Reis小地图.jar ()
+[13:00:52] [Client thread/DEBUG] [FML/]: 	DamageIndicatorsMod(Damage Indicators:3.2.0): [ICraft]伤害与血量显示DamageIndicators v3.2.0.jar ()
+[13:00:52] [Client thread/DEBUG] [FML/]: 	ThermalDynamics(Thermal Dynamics:1.7.10R1.2.1): [N]ThermalDynamics-[1.7.10]1.2.1-172.jar (required-after:CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0);required-after:ThermalFoundation@[1.7.10R1.2.6,1.7.10R1.3.0);)
+[13:00:52] [Client thread/DEBUG] [FML/]: 	ThermalExpansion(Thermal Expansion:1.7.10R4.1.5): [N]ThermalExpansion-[1.7.10]4.1.5-248.jar (required-after:CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0);required-after:ThermalFoundation@[1.7.10R1.2.6,1.7.10R1.3.0);)
+[13:00:52] [Client thread/DEBUG] [FML/]: 	ThermalFoundation(Thermal Foundation:1.7.10R1.2.6): [N]ThermalFoundation-[1.7.10]1.2.6-118.jar (required-after:CoFHCore@[1.7.10R3.1.4,1.7.10R3.2.0);)
+[13:00:52] [Client thread/DEBUG] [FML/]: 	ArchimedesShipsPlus(Archimedes' Ships Plus:1.7.10-1.8): archimedesshipsplus-1.7.10-1.8.jar (required-after:MovingWorld@)
+[13:00:52] [Client thread/DEBUG] [FML/]: 	AWWayofTime(Blood Magic: Alchemical Wizardry:v1.3.3): BloodMagic-1.7.10-1.3.3-17.jar ()
+[13:00:52] [Client thread/DEBUG] [FML/]: 	inventorytweaks(Inventory Tweaks:1.59-dev-152-cf6e263): InventoryTweaks-1.59-dev-152.jar (required-after:FML@[7.2.0,);required-after:Forge@[10.12.1,))
+[13:00:52] [Client thread/DEBUG] [FML/]: 	MovingWorld(Moving World:1.7.10-1.8): movingworld-1.7.10-1.8.jar ()
+[13:00:52] [Client thread/DEBUG] [FML/]: 	Thaumcraft(Thaumcraft:4.2.3.5): Thaumcraft-1.7.10-4.2.3.5.jar (required-after:Forge@[10.13.2,);required-after:Baubles@[1.0.1.10,))
+[13:00:52] [Client thread/DEBUG] [FML/]: 	UnicodeFontFixer(UnicodeFontFixer:1.1.12-mc1.7.10): UnicodeFontFixer-1.1.12-mc1.7.10.jar ()
+[13:00:52] [Client thread/DEBUG] [FML/]: 	Baubles(Baubles:1.0.1.10): Baubles-1.7.10-1.0.1.10.jar (required-after:Forge@[10.13.2,);)
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.003s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:CraftGuide took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Rei's  took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Damage Indicators took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Thermal Dynamics took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Thermal Expansion took 0.002s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Thermal Foundation took 0.002s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Archimedes' Ships Plus took 0.003s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Blood Magic: Alchemical Wizardry took 0.003s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Inventory Tweaks took 0.000s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Moving World took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Thaumcraft took 0.003s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:UnicodeFontFixer took 0.001s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Baubles took 0.000s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.041s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.041s
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.066s
+[13:00:52] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Rei's小地图 堕落汉化/]: Mod Rei's小地图 堕落汉化 is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Damage Indicators/]: Mod Damage Indicators is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Thermal Dynamics/]: Mod Thermal Dynamics is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Thermal Expansion/]: Mod Thermal Expansion is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Thermal Foundation/]: Mod Thermal Foundation is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Archimedes' Ships Plus/]: Mod Archimedes' Ships Plus is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Blood Magic: Alchemical Wizardry/]: Mod Blood Magic: Alchemical Wizardry is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [Moving World/]: Mod Moving World is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/DEBUG] [UnicodeFontFixer/]: Mod UnicodeFontFixer is missing a pack.mcmeta file, substituting a dummy one
+[13:00:52] [Client thread/WARN] [FML/]: There were errors previously. Not beginning mod initialization phase
+[13:00:52] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[13:00:52] [Client thread/INFO] [Config/]: [OptiFine] Resource packs: Default
+[13:00:52] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.001s
+[13:00:52] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[13:00:52] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[13:00:52] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[13:00:52] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:00:52] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[13:00:53] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.872s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.006s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.006s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.008s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0.104s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.014s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0.001s
+[13:00:53] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 0.073s
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[13:00:53] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[13:00:54] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 0.715s
+[13:00:54] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0.000s
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] Loading texture map: textures/blocks
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[13:00:54] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] Texture size: textures/blocks, 16x16
+[13:00:55] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0.609s
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] Loading texture map: textures/items
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] Texture size: textures/items, 16x16
+[13:00:55] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0.010s
+[13:00:55] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0.001s
+[13:00:55] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 1.528s
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] Loading custom colors: textures/colormap/grass.png
+[13:00:55] [Client thread/INFO] [Config/]: [OptiFine] Loading custom colors: textures/colormap/foliage.png
+[13:00:55] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureUtils$1 took 0.087s
+[13:01:03] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[13:01:03] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[13:01:04] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[13:01:04] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 

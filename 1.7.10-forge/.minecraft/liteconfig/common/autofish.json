@@ -1,0 +1,8 @@
+{
+  "clearLagRegex": "^\\[ClearLag\\] Removed [0-9]+ Entities!",
+  "extraRodIDs": "Mariculture:rod_wood,Mariculture:rod_reed,Mariculture:rod_titanium,Mariculture:rod_flux,Aquaculture:item.fishingRod,Aquaculture:item.IronFishingRod,Aquaculture:item.GoldFishingRod,Aquaculture:item.DiamondFishingRod",
+  "isAutofishEnabled": true,
+  "multiRod": false,
+  "noBreak": false,
+  "recast_delay_milliseconds": 1500
+}

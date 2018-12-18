@@ -1,0 +1,275 @@
+[19:23:59] [main/INFO]: LiteLoader 1.7.10_04 starting up...
+[19:23:59] [main/INFO]: Java reports OS="windows 10"
+[19:23:59] [main/INFO]: Enumerating class path...
+[19:23:59] [main/INFO]: Class path separator=";"
+[19:23:59] [main/INFO]: Class path entries=(
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mumfrey\liteloader\1.7.10\liteloader-1.7.10.jar
+   classpathEntry=C:\Users\anyone\AppData\Roaming\.minecraft\libraries\net\minecraft\launchwrapper\1.11\launchwrapper-1.11.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar
+   classpathEntry=C:\Users\anyone\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\16.0\guava-16.0.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\google\guava\guava\15.0\guava-15.0.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar
+   classpathEntry=C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\versions\1.7.10\1.7.10.jar
+)
+[19:23:59] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[19:23:59] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods]
+[19:23:59] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\1.7.10]
+[19:23:59] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[19:23:59] [main/INFO]: Discovering tweaks on class path...
+[19:23:59] [main/INFO]: Discovering valid mod files in folder C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods
+[19:23:59] [main/INFO]: Considering valid mod file: C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\mod_Autofish_0.4.9_mc1.7.10.litemod
+[19:23:59] [main/INFO]: Adding newest valid mod file 'C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\mod_Autofish_0.4.9_mc1.7.10.litemod' at revision 39.0000
+[19:23:59] [main/INFO]: Discovering valid mod files in folder C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\1.7.10
+[19:23:59] [main/INFO]: Searching for tweaks in 'Baubles-1.7.10-1.0.1.10.jar'
+[19:23:59] [main/WARN]: Error parsing manifest entries in 'C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\1.7.10\Baubles-1.7.10-1.0.1.10.jar'
+[19:23:59] [main/INFO]: Searching for tweaks in 'CodeChickenLib-1.7.10-1.1.3.138-universal.jar'
+[19:23:59] [main/WARN]: Error parsing manifest entries in 'C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\1.7.10\CodeChickenLib-1.7.10-1.1.3.138-universal.jar'
+[19:23:59] [main/INFO]: Mod file 'mod_Autofish_0.4.9_mc1.7.10.litemod' provides classTransformer 'troy.autofish.PacketEntityVelocityTransformer', adding to class loader
+[19:23:59] [main/INFO]: classTransformer 'troy.autofish.PacketEntityVelocityTransformer' was successfully added
+[19:23:59] [main/INFO]: LiteLoader PREINIT complete
+[19:23:59] [main/INFO]: Injecting onstartupcomplete[x1] in ag in bao
+[19:23:59] [main/INFO]: Injecting prerenderfbo[x1] in ak in bao
+[19:23:59] [main/INFO]: Injecting postrenderfbo[x1] in ak in bao
+[19:23:59] [main/INFO]: Injecting ontimerupdate[x1] in ak in bao
+[19:23:59] [main/INFO]: Injecting onrender[x1] in ak in bao
+[19:23:59] [main/INFO]: Injecting ontick[x1] in ak in bao
+[19:23:59] [main/INFO]: Injecting updateframebuffersize[x1] in an in bao
+[19:23:59] [main/INFO]: Injecting newtick[x1] in p in bao
+[19:23:59] [main/INFO]: Applying overlay com.mumfrey.liteloader.client.overlays.MinecraftOverlay to bao
+[19:23:59] [main/INFO]: MinecraftOverlayTransformer found INIT injection point, this is good.
+[19:23:59] [main/INFO]: Injecting onoutboundchat[x1] in a in bjk
+[19:23:59] [main/INFO]: Injecting onc00handshake[x1] in a in jp
+[19:23:59] [main/INFO]: Injecting onc00packetloginstart[x1] in a in jw
+[19:23:59] [main/INFO]: Injecting onc16packetclientstatus[x1] in a in is
+[19:23:59] [main/INFO]: Injecting ons03packettimeupdate[x1] in a in ih
+[19:24:00] [main/INFO]: Injecting ons34packetmaps[x1] in a in he
+[19:24:00] [Client thread/INFO]: Injecting onc15packetclientsettings[x1] in a in iu
+[19:24:01] [Client thread/INFO]: Injecting renderfbo[x1] in c in bmg
+[19:24:01] [Client thread/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[19:24:01] [Client thread/INFO]: Successfully generated event handler proxy class with 16 handlers(s) and 16 total invokations
+[19:24:01] [Client thread/INFO]: Injecting prerendergui[x1] in b in blt
+[19:24:01] [Client thread/INFO]: Injecting onrenderhud[x1] in b in blt
+[19:24:01] [Client thread/INFO]: Injecting postrenderhud[x1] in b in blt
+[19:24:01] [Client thread/INFO]: Injecting onrenderworld[x1] in a in blt
+[19:24:01] [Client thread/INFO]: Injecting onsetupcameratransform[x1] in a in blt
+[19:24:01] [Client thread/INFO]: Injecting postrenderentities[x1] in a in blt
+[19:24:01] [Client thread/INFO]: Injecting postrender[x1] in a in blt
+[19:24:01] [Client thread/INFO]: Injecting postrender[x1] in a in blt
+[19:24:01] [Client thread/INFO]: JInput Component Registry is initialising...
+[19:24:02] [Client thread/INFO]: Inspecting Mouse controller HID-compliant mouse on Unknown...
+[19:24:02] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[19:24:02] [Client thread/INFO]: Inspecting Unknown controller USB Receiver on Unknown...
+[19:24:02] [Client thread/INFO]: Inspecting Unknown controller USB Receiver on Unknown...
+[19:24:02] [Client thread/INFO]: Inspecting Unknown controller USB Receiver on Unknown...
+[19:24:02] [Client thread/INFO]: Inspecting Unknown controller USB Receiver on Unknown...
+[19:24:02] [Client thread/INFO]: JInput Component Registry initialised, found 6 controller(s) 167 component(s)
+[19:24:02] [Client thread/INFO]: Injecting onc17packetcustompayload[x1] in a in iz
+[19:24:02] [Client thread/INFO]: Injecting ons3fpacketcustompayload[x1] in a in gr
+[19:24:02] [Client thread/INFO]: LiteLoader begin INIT...
+[19:24:02] [Client thread/INFO]: Injecting oncreateintegratedserver[x1] in <init> in bsx
+[19:24:02] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[19:24:02] [Client thread/INFO]: Injecting external mods into class path...
+[19:24:02] [Client thread/INFO]: Injecting external mods into class path...
+[19:24:02] [Client thread/INFO]: Discovering mods on class path...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mumfrey\liteloader\1.7.10\liteloader-1.7.10.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Users\anyone\AppData\Roaming\.minecraft\libraries\net\minecraft\launchwrapper\1.11\launchwrapper-1.11.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Users\anyone\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\16.0\guava-16.0.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\google\guava\guava\15.0\guava-15.0.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\versions\1.7.10\1.7.10.jar...
+[19:24:02] [Client thread/INFO]: Discovering mods in valid mod files...
+[19:24:02] [Client thread/INFO]: Searching C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\mod_Autofish_0.4.9_mc1.7.10.litemod...
+[19:24:02] [Client thread/INFO]: Found 1 potential matches
+[19:24:02] [Client thread/INFO]: Discovering mods in valid mod files...
+[19:24:02] [Client thread/INFO]: Mod class discovery completed
+[19:24:02] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[19:24:02] [Client thread/INFO]: Injecting onrenderchat[x1] in a in bbv
+[19:24:02] [Client thread/INFO]: Injecting postrenderchat[x1] in a in bbv
+[19:24:02] [Client thread/INFO]: Inhibiting sound handler reload
+[19:24:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientEvents for API LiteLoader core API
+[19:24:02] [Client thread/INFO]: Injecting onc01packetchatmessage[x1] in a in ir
+[19:24:02] [Client thread/INFO]: Injecting oninitializeplayerconnection[x1] in a in oi
+[19:24:02] [Client thread/INFO]: Injecting onplayerlogin[x1] in c in oi
+[19:24:02] [Client thread/INFO]: Injecting onplayerlogout[x1] in e in oi
+[19:24:02] [Client thread/INFO]: Injecting onspawnplayer[x1] in f in oi
+[19:24:02] [Client thread/INFO]: Injecting onrespawnplayer[x1] in a in oi
+[19:24:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[19:24:02] [Client thread/INFO]: Injecting ons02packetchat[x1] in a in gj
+[19:24:02] [Client thread/INFO]: Injecting ons02packetloginsuccess[x1] in a in js
+[19:24:02] [Client thread/INFO]: Injecting ons01packetjoingame[x1] in a in hd
+[19:24:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[19:24:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[19:24:02] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[19:24:02] [Client thread/INFO]: Discovered 1 total mod(s), injected 0 tweak(s)
+[19:24:02] [Client thread/INFO]: Loading mod from troy.autofish.LiteModAutofish
+[19:24:02] [Client thread/INFO]: Baking listener list for ModLoadObserver with 0 listeners
+[19:24:02] [Client thread/INFO]: Successfully added mod Autofish version 0.4.7
+[19:24:02] [Client thread/INFO]: Adding "C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\mod_Autofish_0.4.9_mc1.7.10.litemod" to active resource pack set
+[19:24:02] [Client thread/INFO]: Setting up "mod_Autofish_0.4.9_mc1.7.10.litemod" as mod resource pack with identifier "Autofish"
+[19:24:02] [Client thread/INFO]: Successfully added "C:\Kojima\Onad\DarkBlueMoon\Client-DarkBlueMoon\1.7.10-forge\.\.minecraft\mods\mod_Autofish_0.4.9_mc1.7.10.litemod" to active resource pack set
+[19:24:02] [Client thread/INFO]: Initialising mod Autofish version 0.4.7
+[19:24:02] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[19:24:03] [Client thread/INFO]: Calling late init for mod Autofish
+[19:24:03] [Client thread/INFO]: Baking listener list for ViewportListener with 0 listeners
+[19:24:03] [Client thread/INFO]: Sound handler reload inhibit removed
+[19:24:03] [Client thread/INFO]: Reloading sound handler
+[19:24:03] [Client thread/INFO]: Baking listener list for GameLoopListener with 0 listeners
+[19:24:03] [Client thread/INFO]: Baking listener list for RenderListener with 0 listeners
+[19:24:03] [Client thread/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy$2
+[19:24:03] [Client thread/INFO]: Successfully generated event handler proxy class with 22 handlers(s) and 22 total invokations
+[19:24:03] [Client thread/INFO]: Baking listener list for TickObserver with 3 listeners
+[19:24:03] [Client thread/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[19:24:03] [Client thread/INFO]: Baking listener list for Tickable with 1 listeners
+[19:24:03] [Client thread/INFO]: Baking listener list for WorldObserver with 2 listeners
+[19:24:04] [Client thread/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons00packetkeepalive[x1] in a in gw
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons04packetentityequipment[x1] in a in hz
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons05packetspawnposition[x1] in a in ig
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons06packetupdatehealth[x1] in a in ib
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons07packetrespawn[x1] in a in hs
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons08packetplayerposlook[x1] in a in fu
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons09packethelditemchange[x1] in a in hu
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons0apacketusebed[x1] in a in hp
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons0bpacketanimation[x1] in a in gc
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons0cpacketspawnplayer[x1] in a in gb
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons0dpacketcollectitem[x1] in a in ij
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons0epacketspawnobject[x1] in a in fw
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons0fpacketspawnmob[x1] in a in fz
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons10packetspawnpainting[x1] in a in ga
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons11packetspawnexperienceorb[x1] in a in fx
+[19:24:11] [Netty Client IO #0/INFO]: PacketTransformer: Running transformer troy.autofish.PacketEntityVelocityTransformer for hy
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons12packetentityvelocity[x1] in a in hy
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons13packetdestroyentities[x1] in a in hq
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons14packetentity[x1] in a in hf
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons15packetentityrelmove[x1] in a in hg
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons16packetentitylook[x1] in a in hi
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons17packetentitylookmove[x1] in a in hh
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons18packetentityteleport[x1] in a in ik
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons19packetentityheadlook[x1] in a in ht
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons19packetentitystatus[x1] in a in gt
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons1bpacketentityattach[x1] in a in hx
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons1cpacketentitymetadata[x1] in a in hw
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons1dpacketentityeffect[x1] in a in in
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons1epacketremoveentityeffect[x1] in a in hr
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons1fpacketsetexperience[x1] in a in ia
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons20packetentityproperties[x1] in a in il
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons21packetchunkdata[x1] in a in gx
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons22packetmultiblockchange[x1] in a in gk
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons23packetblockchange[x1] in a in gh
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons24packetblockaction[x1] in a in gg
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons25packetblockbreakanim[x1] in a in ge
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons26packetmapchunkbulk[x1] in a in gz
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons27packetexplosion[x1] in a in gu
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons28packeteffect[x1] in a in ha
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons29packetsoundeffect[x1] in a in hc
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons2apacketparticles[x1] in a in hb
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons2bpacketchangegamestate[x1] in a in gv
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons2cpacketspawnglobalentity[x1] in a in fy
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons2dpacketopenwindow[x1] in a in gn
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons2epacketclosewindow[x1] in a in gm
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons2fpacketsetslot[x1] in a in gq
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons30packetwindowitems[x1] in a in go
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons31packetwindowproperty[x1] in a in gp
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons32packetconfirmtransaction[x1] in a in gl
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons33packetupdatesign[x1] in a in ii
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons35packetupdatetileentity[x1] in a in gf
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons36packetsigneditoropen[x1] in a in hj
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons37packetstatistics[x1] in a in gd
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons38packetplayerlistitem[x1] in a in ho
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons39packetplayerabilities[x1] in a in hk
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons3apackettabcomplete[x1] in a in gi
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons3bpacketscoreboardobjective[x1] in a in ic
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons3cpacketupdatescore[x1] in a in ie
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons3dpacketdisplayscoreboard[x1] in a in hv
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons3epacketteams[x1] in a in id
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons40packetdisconnect[x1] in a in gs
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc00packetkeepalive[x1] in a in jc
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc02packetuseentity[x1] in a in ja
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc03packetplayer[x1] in a in jd
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc04packetplayerposition[x1] in a in je
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc05packetplayerlook[x1] in a in jg
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc06packetplayerposlook[x1] in a in jf
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc07packetplayerdigging[x1] in a in ji
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc08packetplayerblockplacement[x1] in a in jo
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc09packethelditemchange[x1] in a in jl
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc0apacketanimation[x1] in a in ip
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc0bpacketentityaction[x1] in a in jj
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc0cpacketinput[x1] in a in jk
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc0dpacketclosewindow[x1] in a in iy
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc0epacketclickwindow[x1] in a in ix
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc0fpacketconfirmtransaction[x1] in a in iv
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc10packetcreativeinventoryaction[x1] in a in jm
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc11packetenchantitem[x1] in a in iw
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc12packetupdatesign[x1] in a in jn
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc13packetplayerabilities[x1] in a in jh
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc14packettabcomplete[x1] in a in iq
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons00packetserverinfo[x1] in a in ka
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons01packetpong[x1] in a in jz
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons00packetdisconnect[x1] in a in ju
+[19:24:11] [Netty Client IO #0/INFO]: Injecting ons01packetencryptionrequest[x1] in a in jt
+[19:24:11] [Netty Client IO #0/INFO]: Injecting onc01packetencryptionresponse[x1] in a in jx
+[19:24:11] [Netty Client IO #1/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy$3
+[19:24:11] [Netty Client IO #1/INFO]: Successfully generated event handler proxy class with 85 handlers(s) and 85 total invokations
+[19:24:12] [Netty Client IO #2/INFO]: Baking listener list for PostLoginListener with 0 listeners
+[19:24:19] [Client thread/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
+[19:24:20] [Server thread/INFO]: Baking listener list for ServerPlayerListener with 0 listeners
+[19:24:20] [Client thread/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
+[19:24:20] [Client thread/INFO]: Baking listener list for JoinGameListener with 0 listeners
+[19:24:20] [Client thread/INFO]: Baking listener list for PostRenderListener with 0 listeners
+[19:24:20] [Client thread/INFO]: Baking listener list for HUDRenderListener with 0 listeners
+[19:24:20] [Client thread/INFO]: Baking listener list for ChatRenderListener with 0 listeners
+[19:26:30] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[19:26:30] [Client thread/INFO]: Baking listener list for ShutdownObserver with 2 listeners
